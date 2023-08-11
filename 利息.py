@@ -10,14 +10,16 @@ if choice =="1":
     print("（程序已结束运行）")
 
 elif choice == "2":
-     int(input("版本：1.5"))
+     print("版本：1.6")
      print("（程序已结束运行）")
 
 elif choice == "3":
      print("使用本程序可以计算1年的利息，数值来源于互联网")
      print("(本程序仅供参考，请以各大银行官网和柜台公布的利息为准)如有问题，请咨询银行客服")
+     import time
+     localtime = time.asctime(time.localtime(time.time()))
+     print("截止到本地时间为 :", localtime)
      print("（程序已结束运行）")
-
 
 
             
