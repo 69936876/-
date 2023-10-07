@@ -10,7 +10,7 @@ if choice =="1":
     print("（程序已结束运行）")
 
 elif choice == "2":
-     print("版本：1.6")
+     print("版本：2.0")
      print("（程序已结束运行）")
 
 elif choice == "3":
