@@ -1,7 +1,6 @@
 print("1、计算利息")
 print("2、程序版本")
 print("3、关于本程序")
-choice = input("输入你的选择(1/2/3):")
 
 if choice =="1":
     x=int(input("请输入金额："))
