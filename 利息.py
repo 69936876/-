@@ -1,6 +1,7 @@
 print("1、计算利息")
 print("2、程序版本")
 print("3、关于本程序")
+choice = input("输入你的选择(1/4):")
 
 if choice =="1":
     x=int(input("请输入金额："))
@@ -19,6 +20,5 @@ elif choice == "3":
      localtime = time.asctime(time.localtime(time.time()))
      print("截止到本地时间为 :", localtime)
      print("（程序已结束运行）")
-
 
             
